@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Print runner context
-        shell: pwsh
+        shell: powershell
         run: |
           Write-Host "GH bridge Windows smoke"
           Write-Host "Timestamp: $(Get-Date -Format o)"
